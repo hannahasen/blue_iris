@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Boilerplate functions and definitions
  *

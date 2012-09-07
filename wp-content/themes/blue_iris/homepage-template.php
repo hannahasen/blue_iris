@@ -22,6 +22,10 @@ What do you need?
 
 
 
+
+<?php if(function_exists('video_looper') ){ video_looper(); } else {echo 'NOT HERE';} ?>
+
+
 <ul class="videos">
 <li>
 	<a href="#">

@@ -9,7 +9,7 @@ Author URI: http://www.joshuef.com
 
 
 // include('onFilm_options.php');
-
+include('video_loop.php');
 
 // TO DO:
 // Include a class for generation of a video loop. With div class modifiers and thumbnail, title, text selectors
@@ -247,7 +247,7 @@ function video_save_data($post_id) {
 		$oembedUrls = array (
 					  'www.youtube.com' => 'http://www.youtube.com/oembed?url=$1&format=xml',
 					  'www.dailymotion.com' => 'http://www.dailymotion.com/api/oembed?url=$1&format=xml',
-					  'vimeo.com' => 'http://vimeo.com/api/oembed.xml?url=$1&format=xml',
+					  'www.vimeo.com' => 'http://vimeo.com/api/oembed.xml?url=$1&format=xml',
 					  'www.blip.tv' => 'http://blip.tv/oembed/?url=$1&format=xml',
 					  'www.hulu.com' => 'http://www.hulu.com/api/oembed?url=$1&format=xml',
 					  'www.viddler.com' => 'http://lab.viddler.com/services/oembed/?url=$1&format=xml',
