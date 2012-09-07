@@ -1,0 +1,191 @@
+/*
+	Theme Name: Blue Iris Theme
+	Theme URI: http://###
+	Description: A merger created by Aaron T. Grogg (<a href="http://aarontgrogg.com/">http://aarontgrogg.com/</a>) of the HTML5 Boilerplate (<a href="http://html5boilerplate.com/">http://html5boilerplate.com/</a>) and the Starkers theme (<a href="http://starkerstheme.com/">http://starkerstheme.com/</a>), Boilerplate: Starkers provides developers with an ideal, bleeding-edge, clean-start theme.  Mark-up is minimal (thanks Elliott) and the most edge-case web technology is baked right in (thanks Paul, Divya and a large cast of supporting characters)!  Boilerplate themes are designed to serve as a Parent theme to whatever Child (<a href="http://codex.wordpress.org/Child_Themes">http://codex.wordpress.org/Child_Themes</a>) you care to add, but you could just as easily use this as a starting point and alter the PHP as your design needs.  More about this theme can be found at <a href="http://aarontgrogg.com/boilerplate/">http://aarontgrogg.com/boilerplate/</a>.
+	Author: Hannah Asen
+	Author URI: http://
+	Version: 3.4.4
+	Tags: custom-menu, editor-style, theme-options, threaded-comments, sticky-post, microformats, rtl-language-support, translation-ready
+
+	License: GNU General Public License v2.0
+	License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+	This CSS file is a concatenation of style.css from HTML5 Boilerplate and style.css from Starkers.
+	Comment blocks indicate where each begins and ends, like this, for example...
+*/
+
+
+
+
+/* ========== */
+/* = Basics = */
+/* ========== */
+html{
+		margin: 0;
+		padding: 0;
+		background-image:url('images/dandelions.jpg');
+		background-color:#cccccc;
+		}
+body { 
+		display:block;
+		font-family:Helvetica;
+		font-size:14px;
+		width: 945px ;
+		margin: 0 auto;
+		margin-top: 4em;
+		margin-bottom: 4em;
+		}
+body a {
+		color:black;		
+		}
+article {		
+		background-color: white;
+		padding: 1.8em 1.8em 2.7em;
+		margin-top: -2.6em;
+		margin-bottom: 2.6em;
+		}		
+p {
+		margin-top: 0;
+		padding-right: 8em;
+		font-size: 1.1em;
+		}		
+h2 {
+		color:black;
+		text-align:left;
+		text-transform:uppercase;
+		font-size: 2.1em;
+		}
+		
+.page_text h2 {
+		margin-top: 1.8em;
+		margin-bottom: 0.6em;
+		}	
+		
+		
+				
+/* ======== */
+/* = menu = */
+/* ======== */
+
+.active a {		
+		background-color:#99ffff;
+		margin: 0 auto;
+		padding: 0.3em;
+				}
+
+/* ========== */
+/* = Header = */
+/* ========== */
+
+header {margin-top: -4em
+}
+
+.header_container {
+		display:inline-block;
+		width:75%;
+		position: relative;
+		top: 1em;
+		left: 1em;
+		border-bottom: 1px solid black;
+}
+ul {
+
+		margin-bottom: 0.7em;
+		padding-left:0;
+
+		}
+
+.social_links {
+		text-align:right;
+		margin-bottom: 3.8em;
+
+}
+
+.logo h1 {
+		color:black;
+		text-align:left;
+		text-transform:uppercase;
+		display:none;
+		}
+.logo {
+		float:right;
+		display:inline-block;
+		margin-right: -1.4em;
+		margin-top: 1.4em;
+		}
+
+nav {	
+		color:black;
+		font-weight:bold;
+		text-align:left;
+		text-transform:uppercase;
+		position: relative;
+		left: 0.6em;
+		}
+nav a, .social_links a, .videos a {
+		text-decoration:none;
+		padding: 0.25em;	
+		}
+.social_links li, .main_menu li, .videos li {
+		list-style:none;
+		display:inline-block;	
+		}
+.active {
+		background-color: blue;	
+		}
+#skip {
+	position:relative;
+	left: -99999px;
+}
+
+/* =============== */
+/* = Video block = */
+/* =============== */
+
+.videos {
+		display:block;
+		width: 800px;	
+		margin: 0 auto;	
+		}
+
+.videos img {
+		display:block;
+		padding: 0.90em;	
+		}
+
+img {
+		padding: 0.25em;	
+		}
+.videos h3 {
+		font-weight:normal;
+		font-size: 1.1em ;
+		text-decoration:none;
+		padding: 0.85em;
+		margin-top: -0.8em;
+		margin-bottom: -2.4em;
+		}
+
+
+/* =============== */
+/* = footer = */
+/* =============== */
+
+
+footer a {
+		color: white;
+		}					
+
+.logo_footer {
+		display:inline-block;
+		position: relative;
+		left: -0.2em;
+		} 
+
+.bio {
+		background-color: rgba(0,0,0,0.5);
+		color: white;
+		position:relative;
+		top:-1em;
+		left: 0.7em;
+		padding: 0.55em 4.5em 0.55em 0.55em;
+		{

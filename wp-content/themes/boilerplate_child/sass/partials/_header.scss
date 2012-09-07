@@ -1,0 +1,141 @@
+/*_____________________________________________________________________ basics*/
+
+html {
+/*	background: url('images/wood_bg.jpg') repeat;*/
+}
+
+body {
+	width: 100%;
+	margin: 0 auto;
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+	
+	/*hide screen reader text*/
+	.screen-reader, .screen-reader-text, .accessibility, #skip {
+		position: absolute;
+		left: -9999px;
+	} // screen reader
+	
+	
+	
+	p, address {
+		margin-bottom: 1rem;
+		line-height: 1.2em;
+	}
+
+	strong{
+		font-weight: bold;
+	}
+	em { font-style:italic; }
+
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: $header-font;
+}
+
+
+/*------------------------------------*\
+	$TYPE
+\*------------------------------------*/
+/*--- HEADINGS ---*/
+h1{
+	font-size:2em;			/* 32px */
+	margin-bottom:0.75em;	/* 24px */
+	line-height:1.5;		/* 48px */
+}
+h2{
+	font-size:1.5em;		/* 24px */
+	margin-bottom:1em;		/* 24px */
+	line-height:1;			/* 24px */
+}
+h3{
+	font-size:1.25em;		/* 20px */
+	margin-bottom:.5em;	/* 24px */
+	line-height:1.2;		/* 24px */
+}
+h4{
+	font-size:1.125em;		/* 18px */
+	margin-bottom:1.333em;	/* 24px */
+	line-height:1.333;		/* 24px */
+}
+h5{
+	font-weight:bold;
+}
+h5,
+h6{
+	font-size:1em;			/* 16px */
+	margin-bottom:1.5em;	/* 24px */
+	line-height:1.5;		/* 24px */
+}
+
+/*_______________________________________________________________________ actual header*/
+
+header {
+
+	background: url(images/small-header-loop.png) repeat-y;
+	
+	background-size: 120%;
+	margin-left: -.5em;
+	padding-top:2em;
+		
+	.logo {
+display: inline-block;
+		
+		h1 {
+			position: relative;
+			left: -99999px;
+		}// h1
+		
+	
+		
+	} // logo
+	
+}// header
+
+
+//_________________________________________________________________________ media queries
+
+
+/* ================================= */
+/* = For larger than phone screens = */
+/* ================================= */
+@media only screen and (min-width: 481px) {
+
+	
+}
+
+
+
+/* ===================== */
+/* = For Small Screens = */
+/* ===================== */
+@media only screen and (max-width: 481px) {
+
+} /*End of MQ*/
+
+
+
+
+
+/* ================ */
+/* = Up to 1024px = */
+/* ================ */
+@media only screen and (min-width: 1024px) {
+
+
+}
+
+
+
+
+/* ======================================= */
+/* = Box Width Styling for Large screens = */
+/* ======================================= */
+
+
+@media only screen and (min-width: 1280px) {
+
+
+}
